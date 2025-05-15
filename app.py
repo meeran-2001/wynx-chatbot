@@ -10,7 +10,7 @@ def load_model():
 
 tokenizer, model = load_model()
 
-st.title("Wynx 🤖 - Empathetic Chatbot")
+st.title("Wynx 🤖")
 st.write("Hello, I'm Wynx. I'm here to chat and help you feel better. 💬")
 
 if "history" not in st.session_state:
